@@ -116,6 +116,9 @@ class AStarPlanner:
             # Add it to the closed set
             closed_set[c_id] = current
 
+            #cost
+            
+
             # print(len(closed_set))
 
             # expand_grid search grid based on motion model
@@ -268,10 +271,10 @@ def main():
     print(__file__ + " start the A star algorithm demo !!") # print simple notes
 
     # start and goal position
-    sx = 40  # [m]
-    sy = 70  # [m]
-    gx = 636  # [m]
-    gy = 46  # [m]
+    sx = 15  # [m]
+    sy = 55  # [m]
+    gx = 45.0  # [m]
+    gy = 45.0  # [m]
     grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
@@ -299,7 +302,7 @@ def main():
 
     # set obstacle positions for group 9
     ox, oy = [], []
-    for i in range(-10, 65): # draw the button border 
+    for i in range(-10, 60): # draw the button border 
         ox.append(i)
         oy.append(-10.0)
     for i in range(-10, 60): # draw the right border
@@ -312,17 +315,17 @@ def main():
         ox.append(-10.0)
         oy.append(i)
 
-    for i in range(-10, 30): # draw the free border
-        ox.append(25.0)
+    for i in range(20, 60): # draw the free border
+        ox.append(30.0)
         oy.append(i)
 
-    for i in range(0, 50):
-        ox.append(40.0)
+    for i in range(20, 40):
+        ox.append(i+10)
         oy.append(i)
 
-    for i in range(0, 40):
-        ox.append(i)
-        oy.append(i+20)
+    for i in range(0, 30):
+            ox.append(i)
+            oy.append((i*2/3)+40)
 
     
     # for i in range(40, 45): # draw the button border 
@@ -332,15 +335,15 @@ def main():
 
     # set cost intesive area 1
     tc_x, tc_y = [], []
-    for i in range(-553, 10):
-        for j in range(20, 30):
+    for i in range(-5, 10):
+        for j in range(15, 35):
             tc_x.append(i)
             tc_y.append(j)
     
     # set cost intesive area 2
     fc_x, fc_y = [], []
-    for i in range(25, 4553):
-        for j in range(-10, 10):
+    for i in range(20, 30):
+        for j in range(-5, 20):
             fc_x.append(i)
             fc_y.append(j)
 
