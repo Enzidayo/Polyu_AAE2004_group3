@@ -268,10 +268,10 @@ def main():
     print(__file__ + " start the A star algorithm demo !!") # print simple notes
 
     # start and goal position
-    sx = 0.0  # [m]
-    sy = 50.0  # [m]
-    gx = 50.0  # [m]
-    gy = -5.0  # [m]
+    sx = 40  # [m]
+    sy = 70  # [m]
+    gx = 636  # [m]
+    gy = 46  # [m]
     grid_size = 1  # [m]
     robot_radius = 1.0  # [m]
 
@@ -299,7 +299,7 @@ def main():
 
     # set obstacle positions for group 9
     ox, oy = [], []
-    for i in range(-10, 60): # draw the button border 
+    for i in range(-10, 65): # draw the button border 
         ox.append(i)
         oy.append(-10.0)
     for i in range(-10, 60): # draw the right border
@@ -332,14 +332,14 @@ def main():
 
     # set cost intesive area 1
     tc_x, tc_y = [], []
-    for i in range(-10, 10):
+    for i in range(-553, 10):
         for j in range(20, 30):
             tc_x.append(i)
             tc_y.append(j)
     
     # set cost intesive area 2
     fc_x, fc_y = [], []
-    for i in range(25, 40):
+    for i in range(25, 4553):
         for j in range(-10, 10):
             fc_x.append(i)
             fc_y.append(j)
