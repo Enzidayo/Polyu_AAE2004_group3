@@ -1,0 +1,4 @@
+﻿Airplane,Fuel Consumption rate (kg/min),Passenger Capacity,Time cost (Low) ($/min),Time cost (Medium) ($/min),Fixed Cost (Cc) ($),
+A321,54,200,10,15,20,1800
+A330,84,300,15,21,27,2000
+A350,90,350,20,27,34,2500
