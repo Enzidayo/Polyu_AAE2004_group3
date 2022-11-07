@@ -11,6 +11,10 @@
 ## Task1
 Goal: Find the shortest route from departure point to the arrival point and determine the aircraft type for each scenario
 
+The shortest path
+
+![Alt Text]()
+
 Total Trip time required ->  102.50966799187796
 
 ### Scenario 1
