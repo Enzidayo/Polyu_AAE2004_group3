@@ -2,9 +2,9 @@
 <!-- TABLE OF CONTENTS -->
 <details open="open">
   <summery><h2 style="display: inline-block">Table of contents</h2></summary>
-    <li><a href=:"#Task1">Task1</a></li>
-    <li><a href=:"#Task2">Task2</a></li>
-    <li><a href=:"#Task3">Task3</a></li>
+    <li><a href=:"## Task1">Task1</a></li>
+    <li><a href=:"## Task2">Task2</a></li>
+    <li><a href=:"## Task3">Task3</a></li>
   </ol>
 </details>
 
