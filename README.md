@@ -44,20 +44,30 @@ The shortest path
 Total Trip time required ->  102.50966799187796
 
 ### Scenario 1
-3000 passengers need to travel within this week
-12 flights maximum for one week
-Time cost is medium and fuel cost is 0.76$/kg
+<li>3000 passengers need to travel within this week</li>
+<li>12 flights maximum for one week</li>
+<li>Time cost is medium and fuel cost is 0.76$/kg</li>
 
 Result:
 
 ### Scenario 2
+<li>1250 passengers need to travel within this month</li>
+<li>5 flight maximum for one week</li>
+<li>Time cost is high and fuel cost is 0.88$/kg</li>
+
 Result:
 
 ### Scenario 3
+<li>2500 passenger need to travel within this week</li>
+<li>25 flights maximun for one week</li>
+<li>time cost is low and fuel cost is 0.95$/kg</li>
+
 Result:
 
 ## Task2
 Goal: recreate a jet stream that could benefit the flight route the most
+
+Plan after adding a jet stream
 
 
 ## Task3
