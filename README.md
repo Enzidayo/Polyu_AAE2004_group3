@@ -1,10 +1,16 @@
 # Polyu_AAE2004_group3
 <!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summery><h2 style="display: inline-block">Table of contents</h2></summary>
-    <li><a href="## Member">Member</a></li>
+<details>
+  <summery>Table of contents</summary>
+  <ol>
+    <li><a href="## Member">Member</a> 
     <li><a href="## Introduction">Introduction</a></li>
     <li><a href="## Task1">Task1</a></li>
+        <ul>
+          <li><a href= "### Scenario-1">Scenario 1</a></li>
+          <li><a href= "### Scenario-2">Scenario 2</a></li>
+          <li><a href= "### Scenario-3">Scenario 3</a></li>
+        </ul>  
     <li><a href="## Task2">Task2</a></li>
     <li><a href="## Task3">Task3</a></li>
   </ol>
