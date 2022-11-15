@@ -100,7 +100,7 @@ A321 is the most suitable flight.
 Goal: recreate a jet stream that could benefit the flight route the most
 
 Plan after adding a jet stream
-![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
+
 
 Time required= 102.268
 
