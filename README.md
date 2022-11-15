@@ -48,7 +48,9 @@ Total Trip time required ->  102.50966799187796
 <li>12 flights maximum for one week</li>
 <li>Time cost is medium and fuel cost is 0.76$/kg</li>
 
+
 Result:
+
 A321: (0.76*54* 102.50966799187796+15* 102.50966799187796+1800)*15 = cant fit requirement 
 
 A330: (0.76*84* 102.50966799187796+21* 102.50966799187796+2000) *10=$106969.2 
@@ -62,7 +64,9 @@ A330 is the best flight
 <li>5 flight maximum for one week</li>
 <li>Time cost is high and fuel cost is 0.88$/kg</li>
 
+
 Result:
+
 A321: (0.88*54* 102.50966799187796+20* 102.50966799187796+1800)*7 =  $61050.16948 
 
 A330:( 0.88*84* 102.50966799187796+27* 102.50966799187796+2000 )*5=  $6172637847 
@@ -76,7 +80,9 @@ A350 is the best flight
 <li>25 flights maximun for one week</li>
 <li>time cost is low and fuel cost is 0.95$/kg</li>
 
+
 Result:
+
 A321: (0.76*54* 102.50966799187796+10* 102.50966799187796+1800)*13 = $105089.9 
 
 A330:( 0.76*84* 102.50966799187796+15* 102.50966799187796+2000) *9=  $105461.2 
