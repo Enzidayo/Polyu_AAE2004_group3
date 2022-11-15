@@ -43,6 +43,8 @@ The shortest path
 
 Total Trip time required ->  102.50966799187796
 
+![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
+
 ### Scenario 1
 <li>3000 passengers need to travel within this week</li>
 <li>12 flights maximum for one week</li>
@@ -72,3 +74,18 @@ Plan after adding a jet stream
 
 ## Task3
 Goal: 
+![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
+
+Plane name : A-grade plane 
+
+Passanger :250 CT $18/min 
+
+Engine count :2 so fixed cost CC is $2000 
+
+Fuel consumption rate CF 40 kg/min 
+
+Fuel cost F :$ 0.8823/kg 
+
+ 
+
+Cost= $7462.9 
