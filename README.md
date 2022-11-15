@@ -19,17 +19,17 @@
 ## Member
 CHEUNG Tin Lam [rrrrachelll]
 
-CHEUNG Wing Hin [
+CHEUNG Wing Hin [cwhhhhh]
 
-CHU Chenyi
+CHU Chenyi [chuchenyi2]
 
-Chui Lung Kwun Bonald
+Chui Lung Kwun Bonald [ayase101]
 
 GUO Qiuxi
 
-HO Tsz Hin
+HO Tsz Hin [Hin-Zz]
 
-HO Yan Chak
+HO Yan Chak [Enzidayo]
 
 ## Introduction
 Path planning is computatuonal problem to find a sequence of a valid configurations that moves the object from the source to destination. It is important in aviation engineering. Path planning can help consider suitable aircraft models, reduce flight time, and reduce flight costs. 
