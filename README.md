@@ -68,6 +68,7 @@ Result:
 
 ## Task2
 Goal: recreate a jet stream that could benefit the flight route the most
+![Figure_jetarea](https://user-images.githubusercontent.com/116060401/201840762-6d383a5f-26f2-4416-bffe-ea89878d7e95.png)
 
 Plan after adding a jet stream
 
