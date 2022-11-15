@@ -43,14 +43,18 @@ The shortest path
 
 Total Trip time required ->  102.50966799187796
 
-### calculation
-
 ### Scenario 1
 <li>3000 passengers need to travel within this week</li>
 <li>12 flights maximum for one week</li>
 <li>Time cost is medium and fuel cost is 0.76$/kg</li>
 
 Result:
+A321: (0.76*54* 102.50966799187796+15* 102.50966799187796+1800)*15 = cant fit requirement 
+
+A330: (0.76*84* 102.50966799187796+21* 102.50966799187796+2000) *10=$106969.2 
+
+A350:(0.76*90* 102.50966799187796+27* 102.50966799187796+2500)*9= $110514.8 
+
 A330 is the best flight
 
 ### Scenario 2
