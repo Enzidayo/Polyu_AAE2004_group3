@@ -33,7 +33,11 @@ HO Tsz Hin [Hin-Zz]
 HO Yan Chak [Enzidayo]
 
 ## Introduction
-Path planning is computatuonal problem to find a sequence of a valid configurations that moves the object from the source to destination. It is important in aviation engineering. Path planning can help consider suitable aircraft models, reduce flight time, and reduce flight costs. 
+Since the invention of the aircraft, navigation always is an important part of aviation. To solve the navigation problem effectively, people try to use AI technology, also known as Path planning. Path planning is the computational problem to find a sequence of valid configurations that moves the object from the source to the destination. 
+
+According to the air traffic statistics provided by AAHK, HKIA recorded approximately 145,000 air traffic movements in 2021. The airspace is fully in-used to handle all the flights. To balance flight efficiency and cost, path planning is important to generate the maximum benefit in a flight operation. By path planning, the designer can fulfill all the constraints to ensure the best use of the crowded airspace and designs an optimized route for aircraft operation. 
+
+In the project, we are going to practice path planning by writing a Python program that helps us to design and calculate the optimized path with the lowest cost and choose the best aircraft model under given scenarios in each task.
 
 ## Task1
 Goal: Find the shortest route from departure point to the arrival point and determine the aircraft type for each scenario
