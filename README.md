@@ -43,12 +43,15 @@ The shortest path
 
 Total Trip time required ->  102.50966799187796
 
+### calculation
+
 ### Scenario 1
 <li>3000 passengers need to travel within this week</li>
 <li>12 flights maximum for one week</li>
 <li>Time cost is medium and fuel cost is 0.76$/kg</li>
 
 Result:
+A330 is the best flight
 
 ### Scenario 2
 <li>1250 passengers need to travel within this month</li>
@@ -56,6 +59,7 @@ Result:
 <li>Time cost is high and fuel cost is 0.88$/kg</li>
 
 Result:
+A350 is the best flight
 
 ### Scenario 3
 <li>2500 passenger need to travel within this week</li>
@@ -63,6 +67,7 @@ Result:
 <li>time cost is low and fuel cost is 0.95$/kg</li>
 
 Result:
+A321 is the best flight
 
 ## Task2
 Goal: recreate a jet stream that could benefit the flight route the most
