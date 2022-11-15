@@ -43,7 +43,7 @@ The shortest path
 
 Total Trip time required ->  102.50966799187796
 
-Equation to calculate the cost;
+Equation to calculate the cost:
 
 ![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
 
