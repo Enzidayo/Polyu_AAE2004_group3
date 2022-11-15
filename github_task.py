@@ -18,7 +18,7 @@ show_animation = True
 
 class AStarPlanner:
 
-    def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y):
+    def __init__(self, ox, oy, resolution, rr, fc_x, fc_y, tc_x, tc_y, kc_x, kc_y):
         """
         Initialize grid map for a star planning
         ox: x position list of Obstacles [m]
@@ -40,10 +40,12 @@ class AStarPlanner:
         self.fc_y = fc_y
         self.tc_x = tc_x
         self.tc_y = tc_y
-        
+        self.kc_x = kc_x
+        self.kc_y = kc_y
 
         self.Delta_C1 = 0.2 # cost intensive area 1 modifier
-        self.Delta_C2 = 1 # cost intensive area 2 modifier
+        self.Delta_C2 = 0.4 # cost intensive area 2 modifier
+        self.Delta_C3 = -0.05 # cost jet area modifier
 
         self.costPerGrid = 1 
 
@@ -106,6 +108,13 @@ class AStarPlanner:
             # reaching goal
             if current.x == goal_node.x and current.y == goal_node.y:
                 print("Total Trip time required -> ",current.cost )
+                formula=input("aircraft model")
+                if formula=="A321neo":
+                   print("Total cost for A321neo-> ",(0.76*54*(current.cost)+10*(current.cost)+1800)*15)
+                if formula=="A330-900neo":
+                   print("Total cost for A330-900neo-> ",(0.76*84*(current.cost)+15*(current.cost)+2000)*10)
+                if formula=="A350-900":
+                   print("Total cost for A350-900-> ",(0.76*90*(current.cost)+20*(current.cost)+2500)*9)
                 goal_node.parent_index = current.parent_index
                 goal_node.cost = current.cost
                 break
@@ -140,6 +149,12 @@ class AStarPlanner:
                         node.cost = node.cost + self.Delta_C2 * self.motion[i][2]
                     # print()
                 
+                 
+                if self.calc_grid_position(node.x, self.min_x) in self.kc_x:
+                    if self.calc_grid_position(node.y, self.min_y) in self.kc_y:
+                        # print("stream!!")
+                        node.cost = node.cost + self.Delta_C3 * self.motion[i][2]
+               
                 n_id = self.calc_grid_index(node)
 
                 # If the node is not safe, do nothing
@@ -347,6 +362,12 @@ def main():
             fc_x.append(i)
             fc_y.append(j)
 
+    # set jet stream
+    kc_x, kc_y = [], []
+    for i in range(-10, 60):
+        for j in range(40,45):
+            kc_x.append(i)
+            kc_y.append(j)
 
     if show_animation:  # pragma: no cover
         plt.plot(ox, oy, ".k") # plot the obstacle
@@ -355,11 +376,13 @@ def main():
         
         plt.plot(fc_x, fc_y, "oy") # plot the cost intensive area 1
         plt.plot(tc_x, tc_y, "or") # plot the cost intensive area 2
-
+        plt.plot(kc_x, kc_y, "ob") # plot the cost intensive area 2
+       
+        
         plt.grid(True) # plot the grid to the plot panel
         plt.axis("equal") # set the same resolution for x and y axis 
 
-    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y)
+    a_star = AStarPlanner(ox, oy, grid_size, robot_radius, fc_x, fc_y, tc_x, tc_y, kc_x, kc_y,)
     rx, ry = a_star.planning(sx, sy, gx, gy)
 
     if show_animation:  # pragma: no cover
