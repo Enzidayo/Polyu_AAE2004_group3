@@ -98,4 +98,18 @@ Plan after adding a jet stream
 
 
 ## Task3
-Goal: 
+Goal: Design a new aircraft to best fit scenario 1 in task 1
+
+![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
+
+Plane name : A-grade plane 
+
+Passanger :250 CT $18/min 
+
+Engine count :2 so fixed cost CC is $2000 
+
+Fuel consumption rate CF 40 kg/min 
+
+Fuel cost F :$ 0.8823/kg  
+
+Cost= $7462.9 
