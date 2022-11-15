@@ -57,7 +57,7 @@ A330: (0.76*84* 102.50966799187796+21* 102.50966799187796+2000) *10=$106969.2
 
 A350:(0.76*90* 102.50966799187796+27* 102.50966799187796+2500)*9= $110514.8 
 
-A330 is the best flight
+A330 is the most suitable flight.
 
 ### Scenario 2
 <li>1250 passengers need to travel within this month</li>
@@ -73,7 +73,7 @@ A330:( 0.88*84* 102.50966799187796+27* 102.50966799187796+2000 )*5=  $6172637847
 
 A350:(0.88*90* 102.50966799187796+34* 102.50966799187796+2500)*4= $ $56416.37767 
 
-A350 is the best flight
+A350 is the most suitable flight.
 
 ### Scenario 3
 <li>2500 passenger need to travel within this week</li>
@@ -89,7 +89,7 @@ A330:( 0.76*84* 102.50966799187796+15* 102.50966799187796+2000) *9=  $105461.2
 
 A350:(0.76*90* 102.50966799187796+20* 102.50966799187796+2500)*8= $106518.15 
 
-A321 is the best flight
+A321 is the most suitable flight.
 
 ## Task2
 Goal: recreate a jet stream that could benefit the flight route the most
