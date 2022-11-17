@@ -39,6 +39,8 @@ According to the air traffic statistics provided by AAHK, HKIA recorded approxim
 
 In the project, we are going to practice path planning by writing a Python program that helps us to design and calculate the optimized path with the lowest cost and choose the best aircraft model under given scenarios in each task.
 
+## theory of path planning
+
 ## Task1
 Goal: Find the shortest route from departure point to the arrival point and determine the aircraft type for each scenario
 
