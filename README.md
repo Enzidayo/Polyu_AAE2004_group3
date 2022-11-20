@@ -39,7 +39,10 @@ According to the air traffic statistics provided by AAHK, HKIA recorded approxim
 
 In the project, we are going to practice path planning by writing a Python program that helps us to design and calculate the optimized path with the lowest cost and choose the best aircraft model under given scenarios in each task.
 
-## theory of path planning
+## Theory of Path Planning Algorithm
+Path planning is a calculation problem. It can find an effective sequence of configurations to move the object from its source to its destination. For a given situation, the flight can choose the best aircraft model with an optimised route based on this algorithm, finding the optimal or near-optimal path from the starting state to the target state for obstacle avoidance, minimising the operational cost of the aircraft.
+
+When the tough competitive environment is forcing airlines to consider every aspect of their operating costs, airlines want to minimise the cost of flying by choosing the right route, altitude and speed, and by loading the least amount of necessary fuel on board so that path planning is invented. It can provide optimum economic benefits by calculating the direct operating costs when fuel, time, distance flown, number of passengers, etc. are all important factors to consider. By the formula: C = CF x F + CT x T + Cc, we can easily understand, without resorting to complex mathematics, that the total cost of a particular trip is the sum of fixed and variable costs.
 
 ## Task1
 Goal: Find the shortest route from departure point to the arrival point and determine the aircraft type for each scenario
