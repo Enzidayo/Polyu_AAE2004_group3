@@ -133,3 +133,9 @@ Fuel cost F :$ 0.8823/kg
 Cost= $7462.9 
 
 ## Reflective Essay
+
+###Enzi's reflection;
+
+In this project, I was stuck in the coding session. Before starting this project, I do not have any coding experience by myself. I just tried to copy and paste the code into other lessons. Therefore, coding is a difficult part for me. Using task 1 as an example, I can change the cost-intensive area and the obstacle referring to the template. However, as the mark bonus for calculating by coding, I tried three lessons to make it and I am still not able to build the code. Finally, I calculate the cost manually. Communicating is another challenge for me. This is my first group project in my university life. It is so difficult to divide jobs among my groupmates as I do not know my groupmates at first.
+
+Overall, this group project gives me more experience in different aspects. The knowledge of path planning, choosing aircraft, etc. is also interesting.
