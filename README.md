@@ -44,6 +44,13 @@ Path planning is a calculation problem. It can find an effective sequence of con
 
 When the tough competitive environment is forcing airlines to consider every aspect of their operating costs, airlines want to minimise the cost of flying by choosing the right route, altitude and speed, and by loading the least amount of necessary fuel on board so that path planning is invented. It can provide optimum economic benefits by calculating the direct operating costs when fuel, time, distance flown, number of passengers, etc. are all important factors to consider. By the formula: C = CF x F + CT x T + Cc, we can easily understand, without resorting to complex mathematics, that the total cost of a particular trip is the sum of fixed and variable costs.
 
+## Background of Path Planning to Aviation Engineering
+Aircraft flying is all about 'value for money'. The best way to fly a complete route in the shortest possible time and with the least amount of fuel is based on cost-effectiveness. The first thing that comes to mind when forming such an optimal route is that the shorter the route, the better!
+
+From the passenger's point of view, it is essential to plan the shortest possible flight path. Suppose a passenger is travelling on a multi-transfer flight. In that case, flight time is generally one of the decisive factors in the passenger's choice, and more passengers prefer a combination of shorter flights. For airlines and airports, planning the shortest possible multi-route route can help attract passengers.
+
+The value of the shortest distance route is the cost savings. For airlines, shorter flight distances can help them to reduce their overheads if the cost per unit of distance is fixed. This idea of saving costs by planning the shortest route can be applied to passenger and cargo transport.
+
 ## Task1
 Goal: Find the shortest route from departure point to the arrival point and determine the aircraft type for each scenario
 
