@@ -72,8 +72,10 @@ When the tough competitive environment is forcing airlines to consider every asp
 ##Introduction of the Engineering Tools
 
 ### Python
+Python is an effective programming language that many companies are using it nowadays. For example, google, Instagram, Netflix. Also, Python is a multipurpose language. It can be used for data analysis, automation, path planning, etc.
 
 ### Github
+Github is a social network for software developer. It is a place for software developer to share, communicate with others. Also, it is easy for developer to collaborate. In a repository, developer can safely make changes to the code in different branches and they can be merge when the code is finished.
 
 ## Task1
 
