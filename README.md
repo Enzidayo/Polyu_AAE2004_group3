@@ -4,16 +4,34 @@
   <summery>Table of contents</summary>
   <ol>
     <li><a href="## Member">Member</a> 
-    <li><a href="## Introduction">Introduction</a></li>
+    <li><a href="## Introduction">Introduction</a>  
+    <li><a href="## Background of Path Planning to Aviation Engineering">Background of Path Planning to Aviation Engineering</a></li>
+    <li><a href="Theory of Path Planning Algorithm">Theory of Path Planning Algorithm</a></li>
+    <li><a href="## Introduction of the Engineering Tools">Introduction of the Engineering Tools</a>
+        <ul>
+          <li><a href= "### Python">Python</a></li>
+          <li><a href= "### Github">Github</a></li>
+        </ul>  
     <li><a href="## Task1">Task1</a></li>
         <ul>
-          <li><a href= "### Scenario-1">Scenario 1</a></li>
-          <li><a href= "### Scenario-2">Scenario 2</a></li>
-          <li><a href= "### Scenario-3">Scenario 3</a></li>
-        </ul>  
+          <li><a href= "### Methodology">Methodology</a></li>
+          <li><a href= "### Results">Results</a></li>
+          <li><a href= "### Discussion">Discussion</a></li>
+        </ul>
     <li><a href="## Task2">Task2</a></li>
+        <ul>
+          <li><a href= "### Methodology">Methodology</a></li>
+          <li><a href= "### Results">Results</a></li>
+          <li><a href= "### Discussion">Discussion</a></li>
+        </ul>
     <li><a href="## Task3">Task3</a></li>
+        <ul>
+          <li><a href= "### Methodology">Methodology</a></li>
+          <li><a href= "### Results">Results</a></li>
+          <li><a href= "### Discussion">Discussion</a></li>
+        </ul>
     <li><a href="## Reflective Essay">Reflective Essay</a></li>
+    <li><a href="## Refreneces">References</a></li>
   </ol>
 </details>
 
@@ -32,17 +50,12 @@ HO Tsz Hin [Hin-Zz]
 
 HO Yan Chak [Enzidayo]
 
-## Background of Path Planning to Aviation Engineering
+## Introduction
 Since the invention of the aircraft, navigation always is an important part of aviation. To solve the navigation problem effectively, people try to use AI technology, also known as Path planning. Path planning is the computational problem to find a sequence of valid configurations that moves the object from the source to the destination. 
 
 According to the air traffic statistics provided by AAHK, HKIA recorded approximately 145,000 air traffic movements in 2021. The airspace is fully in-used to handle all the flights. To balance flight efficiency and cost, path planning is important to generate the maximum benefit in a flight operation. By path planning, the designer can fulfill all the constraints to ensure the best use of the crowded airspace and designs an optimized route for aircraft operation. 
 
 In the project, we are going to practice path planning by writing a Python program that helps us to design and calculate the optimized path with the lowest cost and choose the best aircraft model under given scenarios in each task.
-
-## Theory of Path Planning Algorithm
-Path planning is a calculation problem. It can find an effective sequence of configurations to move the object from its source to its destination. For a given situation, the flight can choose the best aircraft model with an optimised route based on this algorithm, finding the optimal or near-optimal path from the starting state to the target state for obstacle avoidance, minimising the operational cost of the aircraft.
-
-When the tough competitive environment is forcing airlines to consider every aspect of their operating costs, airlines want to minimise the cost of flying by choosing the right route, altitude and speed, and by loading the least amount of necessary fuel on board so that path planning is invented. It can provide optimum economic benefits by calculating the direct operating costs when fuel, time, distance flown, number of passengers, etc. are all important factors to consider. By the formula: C = CF x F + CT x T + Cc, we can easily understand, without resorting to complex mathematics, that the total cost of a particular trip is the sum of fixed and variable costs.
 
 ## Background of Path Planning to Aviation Engineering
 Aircraft flying is all about 'value for money'. The best way to fly a complete route in the shortest possible time and with the least amount of fuel is based on cost-effectiveness. The first thing that comes to mind when forming such an optimal route is that the shorter the route, the better!
@@ -51,17 +64,22 @@ From the passenger's point of view, it is essential to plan the shortest possibl
 
 The value of the shortest distance route is the cost savings. For airlines, shorter flight distances can help them to reduce their overheads if the cost per unit of distance is fixed. This idea of saving costs by planning the shortest route can be applied to passenger and cargo transport.
 
+## Theory of Path Planning Algorithm
+Path planning is a calculation problem. It can find an effective sequence of configurations to move the object from its source to its destination. For a given situation, the flight can choose the best aircraft model with an optimised route based on this algorithm, finding the optimal or near-optimal path from the starting state to the target state for obstacle avoidance, minimising the operational cost of the aircraft.
+
+When the tough competitive environment is forcing airlines to consider every aspect of their operating costs, airlines want to minimise the cost of flying by choosing the right route, altitude and speed, and by loading the least amount of necessary fuel on board so that path planning is invented. It can provide optimum economic benefits by calculating the direct operating costs when fuel, time, distance flown, number of passengers, etc. are all important factors to consider. By the formula: C = CF x F + CT x T + Cc, we can easily understand, without resorting to complex mathematics, that the total cost of a particular trip is the sum of fixed and variable costs.
+
 ##Introduction of the Engineering Tools
 
-###Python
+### Python
 
-###Github
+### Github
 
 ## Task1
 
-###Methodology
-
-###Results
+### Methodology
+ 
+### Results
 
 The shortest path
 
@@ -112,11 +130,11 @@ A350:(0.76*90* 103.075+20* 103.075+2500)*8= $92894.64
 
 A321 is the most suitable flight.
 
-###Discussion
+### Discussion
 
 ## Task2
 
-###Methodology 
+### Methodology 
 
 ###Results 
 
@@ -126,13 +144,13 @@ Plan after adding a jet stream
 
 Time required= 102.268
 
-###Discussion
+### Discussion
 
 ## Task3
 
-###Methodology 
+### Methodology 
 
-###Results
+### Results
 
 ![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
 
@@ -148,7 +166,7 @@ Fuel cost F :$ 0.8823/kg
 
 Cost= $7462.9 
 
-###Discussion
+### Discussion
 
 ## Reflective Essay
 
@@ -166,4 +184,4 @@ Participating in this project has broaden my horizon in the coding field, before
 
 Honestly, I had yet to learn about path planning and coding before I joined this lecture. In my experience, flying an aircraft is so straightforward that the flight passes from one country to another. But during this lecture, I discovered a whole new world in this lecture by learning. I find that private pilots do the path plan before the flight to ensure the navigation aid is available. It is also the best way to fly a complete route in the shortest possible time and with the least amount of fuel. However coding is also of great importance in this project, but it is also a weakness of mine. Luckily, my teammates could go due the coding so that I could focus on the paragraph planning. When I was doing the part on the Theory of Path Planning Algorithms and Background of Path Planning in Aviation Engineering, I also learned more about path planning which can provide the best solution to passengers and airlines. Passengers can get lower prices and shorter flights; airlines can also get better cost-effectiveness during daily operations.
 
-##References
+## References
