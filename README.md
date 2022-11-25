@@ -69,7 +69,7 @@ Path planning is a calculation problem. It can find an effective sequence of con
 
 When the tough competitive environment is forcing airlines to consider every aspect of their operating costs, airlines want to minimise the cost of flying by choosing the right route, altitude and speed, and by loading the least amount of necessary fuel on board so that path planning is invented. It can provide optimum economic benefits by calculating the direct operating costs when fuel, time, distance flown, number of passengers, etc. are all important factors to consider. By the formula: C = CF x F + CT x T + Cc, we can easily understand, without resorting to complex mathematics, that the total cost of a particular trip is the sum of fixed and variable costs.
 
-##Introduction of the Engineering Tools
+## Introduction of the Engineering Tools
 
 ### Python
 Python is an effective programming language that many companies are using it nowadays. For example, google, Instagram, Netflix. Also, Python is a multipurpose language. It can be used for data analysis, automation, path planning, etc.
