@@ -32,7 +32,7 @@ HO Tsz Hin [Hin-Zz]
 
 HO Yan Chak [Enzidayo]
 
-## Introduction
+## Background of Path Planning to Aviation Engineering
 Since the invention of the aircraft, navigation always is an important part of aviation. To solve the navigation problem effectively, people try to use AI technology, also known as Path planning. Path planning is the computational problem to find a sequence of valid configurations that moves the object from the source to the destination. 
 
 According to the air traffic statistics provided by AAHK, HKIA recorded approximately 145,000 air traffic movements in 2021. The airspace is fully in-used to handle all the flights. To balance flight efficiency and cost, path planning is important to generate the maximum benefit in a flight operation. By path planning, the designer can fulfill all the constraints to ensure the best use of the crowded airspace and designs an optimized route for aircraft operation. 
@@ -51,8 +51,17 @@ From the passenger's point of view, it is essential to plan the shortest possibl
 
 The value of the shortest distance route is the cost savings. For airlines, shorter flight distances can help them to reduce their overheads if the cost per unit of distance is fixed. This idea of saving costs by planning the shortest route can be applied to passenger and cargo transport.
 
+##Introduction of the Engineering Tools
+
+###Python
+
+###Github
+
 ## Task1
-Goal: Find the shortest route from departure point to the arrival point and determine the aircraft type for each scenario
+
+###Methodology
+
+###Results
 
 The shortest path
 
@@ -64,14 +73,10 @@ Equation to calculate the cost:
 
 ![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
 
-
 ### Scenario 1
 <li>3000 passengers need to travel within this week</li>
 <li>12 flights maximum for one week</li>
 <li>Time cost is medium and fuel cost is 0.76$/kg</li>
-
-
-Result:
 
 A321: (0.76*54* 103.075+15* 103.075+1800)*15 = cant fit requirement 
 
@@ -86,9 +91,6 @@ A330 is the most suitable flight.
 <li>5 flight maximum for one week</li>
 <li>Time cost is high and fuel cost is 0.88$/kg</li>
 
-
-Result:
-
 A321: (0.88*54* 103.075+20* 103.075+1800)*7 =  $61317.368
 
 A330:( 0.88*84* 103.075+27* 103.075+2000 )*5=  $62011.645
@@ -102,9 +104,6 @@ A350 is the most suitable flight.
 <li>25 flights maximun for one week</li>
 <li>time cost is low and fuel cost is 0.95$/kg</li>
 
-
-Result:
-
 A321: (0.76*54* 103.075+10* 103.075+1800)*13 = $91792.324
 
 A330:( 0.76*84* 103.075+15* 103.075+2000) *9=  $91137.897
@@ -113,8 +112,13 @@ A350:(0.76*90* 103.075+20* 103.075+2500)*8= $92894.64
 
 A321 is the most suitable flight.
 
+###Discussion
+
 ## Task2
-Goal: recreate a jet stream that could benefit the flight route the most
+
+###Methodology 
+
+###Results 
 
 Plan after adding a jet stream
 
@@ -122,8 +126,13 @@ Plan after adding a jet stream
 
 Time required= 102.268
 
+###Discussion
+
 ## Task3
-Goal: Design a new aircraft to best fit scenario 1 in task 1
+
+###Methodology 
+
+###Results
 
 ![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
 
@@ -138,6 +147,8 @@ Fuel consumption rate CF 40 kg/min
 Fuel cost F :$ 0.8823/kg  
 
 Cost= $7462.9 
+
+###Discussion
 
 ## Reflective Essay
 
@@ -154,3 +165,5 @@ Participating in this project has broaden my horizon in the coding field, before
 ### Bonald's reflection:
 
 Honestly, I had yet to learn about path planning and coding before I joined this lecture. In my experience, flying an aircraft is so straightforward that the flight passes from one country to another. But during this lecture, I discovered a whole new world in this lecture by learning. I find that private pilots do the path plan before the flight to ensure the navigation aid is available. It is also the best way to fly a complete route in the shortest possible time and with the least amount of fuel. However coding is also of great importance in this project, but it is also a weakness of mine. Luckily, my teammates could go due the coding so that I could focus on the paragraph planning. When I was doing the part on the Theory of Path Planning Algorithms and Background of Path Planning in Aviation Engineering, I also learned more about path planning which can provide the best solution to passengers and airlines. Passengers can get lower prices and shorter flights; airlines can also get better cost-effectiveness during daily operations.
+
+##References
