@@ -147,7 +147,7 @@ Plan after adding a jet stream
 
 ![Figure_jetarea](https://user-images.githubusercontent.com/116060401/201840762-6d383a5f-26f2-4416-bffe-ea89878d7e95.png)
 
-Time required= 102.268
+Time required= 102.268 s
 
 ### Discussion
 
