@@ -44,7 +44,7 @@ CHU Chenyi [chuchenyi2]
 
 Chui Lung Kwun Bonald [ayase101]
 
-GUO Qiuxi
+GUO Qiuxi [QUECIE]
 
 HO Tsz Hin [Hin-Zz]
 
@@ -134,7 +134,7 @@ A350:(0.76*90* 103.075+20* 103.075+2500)*8= $92894.64
 Answer is 9 flights of A330
 
 ### Discussion
-
+Path planning is an important component in aviation industry. The purpose of path planning is to find a shortest route that can minimise the operating cost. By considering the cost of fuel, time cost, fixed cost to selected the aircraft type that have the lowest cost.
 
 ## Task2
 
