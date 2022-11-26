@@ -138,9 +138,10 @@ Path planning is an important component in aviation industry. The purpose of pat
 
 ## Task2
 
-### Methodology 
+### Methodology
+The cost along the jet stream is reduced by 5%. Using the scenario 1 of <a href="## Task1">Task1 as the background, setting up the jet stream that the most of the path pass trough it is the best choice.
 
-###Results 
+### Results 
 
 Plan after adding a jet stream
 
