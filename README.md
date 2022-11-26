@@ -147,7 +147,7 @@ Plan after adding a jet stream
 
 ![Figure_jetarea](https://user-images.githubusercontent.com/116060401/201840762-6d383a5f-26f2-4416-bffe-ea89878d7e95.png)
 
-Time required= 102.268 s
+Time required= 102.268
 
 ### Discussion
 
@@ -190,6 +190,6 @@ Participating in this project has broaden my horizon in the coding field, before
 Honestly, I had yet to learn about path planning and coding before I joined this lecture. In my experience, flying an aircraft is so straightforward that the flight passes from one country to another. But during this lecture, I discovered a whole new world in this lecture by learning. I find that private pilots do the path plan before the flight to ensure the navigation aid is available. It is also the best way to fly a complete route in the shortest possible time and with the least amount of fuel. However coding is also of great importance in this project, but it is also a weakness of mine. Luckily, my teammates could go due the coding so that I could focus on the paragraph planning. When I was doing the part on the Theory of Path Planning Algorithms and Background of Path Planning in Aviation Engineering, I also learned more about path planning which can provide the best solution to passengers and airlines. Passengers can get lower prices and shorter flights; airlines can also get better cost-effectiveness during daily operations.
 
 ### Hinson's reflection:
-I was a complete beginner when I first arrived at the university, so being a part of this project has broadened my horizons in the world of coding. As a result, at first, I was hesitant to write any code because it was the first time I had ever written. Fortunately, some of our group members are skilled coders, so we assigned them the responsibility of coding while others were tasked with other tasks like producing reports. In earlier courses, I saw that one of my group members was having trouble with this assignment. I saw the issue we were attempting to resolve at the time and wanted to assist, but I lacked the skills to do so. But I've always wanted to take part in this project. I want to get better at coding, and after working with my group to overcome a problem, I felt proud of myself for not just ignoring it. Because I made an effort to expand myself, I'm pleased of myself. 
+I was a complete beginner when I first arrived at the university, so being a part of this project has broadened my horizons in the world of coding. As a result, at first, I was hesitant to write any code because it was the first time I had ever written. Fortunately, some of our group members are skilled coders, so we assigned them the responsibility of coding while others were tasked with other parts like the report, presentation,etc. In earlier courses, I saw that one of my group members was having trouble with this assignment. I saw the issue we were attempting to resolve at the time and wanted to assist, but I lacked the skills to do so. But I've always wanted to take part in this project. I want to get better at coding, and after working with my group to overcome a problem, I felt proud of myself for not just ignoring it. Because I made an effort to expand myself, I'm pleased of myself. 
 
 ## References
