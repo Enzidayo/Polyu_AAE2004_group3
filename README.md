@@ -80,10 +80,11 @@ Github is a social network for software developer. It is a place for software de
 ## Task1
 
 ### Methodology
+We modified the programme code based on the sample code. We changed the position of the obstacles, cost intensive areas and change the additional flight time in the cost intensive area into 20% and 40%. therefore, we are able to get the required flight time for our route. First, we consider if the aircraft type A321-neo, A330-900neo, and A350-900 can carry all the passenger in the scenarios. Then, we calculate the trip cost of the three aircraft type in three different scenarios manually to find the lowestcost of operating (Using the formula: C = CF x F + CT x T + Cc).
  
 ### Results
 
-The shortest path
+The shortest path:
 
 ![abc](https://user-images.githubusercontent.com/116060401/200479713-8ce624a1-2d1f-4e88-a3b2-7cbec7a2e828.jpg)
 
@@ -104,7 +105,7 @@ A330: (0.76*84* 103.075+21* 103.075+2000) *10=$107448.83
 
 A350:(0.76*90* 103.075+27* 103.075+2500)*9= $111000.195
 
-A330 is the most suitable flight.
+Answer is 10 flights of A330
 
 ### Scenario 2
 <li>1250 passengers need to travel within this month</li>
@@ -117,7 +118,7 @@ A330:( 0.88*84* 103.075+27* 103.075+2000 )*5=  $62011.645
 
 A350:(0.88*90* 103.075+34* 103.075+2500)*4= $56672.36
 
-A350 is the most suitable flight.
+Answer is 4 flights of A350
 
 ### Scenario 3
 <li>2500 passenger need to travel within this week</li>
@@ -130,9 +131,10 @@ A330:( 0.76*84* 103.075+15* 103.075+2000) *9=  $91137.897
 
 A350:(0.76*90* 103.075+20* 103.075+2500)*8= $92894.64
 
-A321 is the most suitable flight.
+Answer is 13 flights of A321
 
 ### Discussion
+
 
 ## Task2
 
