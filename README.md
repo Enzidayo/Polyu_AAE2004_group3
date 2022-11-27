@@ -154,6 +154,7 @@ Cost of 10 A330: (0.76* 84* 102.268+21* 102.268+2000) *10 =106764.17
 The cost have reduced:107448.83-136764.17=$684.66
 
 ### Discussion
+Jet stream is a fast flowing air current. For path planning, it can reduce the consumption of fuel when aircraft pass through it. 
 
 ## Task3
 
