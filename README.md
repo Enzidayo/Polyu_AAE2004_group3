@@ -159,6 +159,7 @@ Cost of 10 A330: (0.76* 84* 102.268+21* 102.268+2000) *10 =106764.17
 The cost have reduced:107448.83-136764.17=$684.66
 
 ### Discussion
+Jet stream is a high speed flowing that can reduce the cost of fuel when passing through it. Therefore, flying through the jet stream may have a lower cost than following the shortest path.
 
 ## Task3
 
@@ -181,6 +182,7 @@ Fuel cost F :$ 0.8823/kg
 Cost= $7462.9 
 
 ### Discussion
+
 
 ## Reflective Essay
 
