@@ -159,13 +159,11 @@ Cost of 10 A330: (0.76* 84* 102.268+21* 102.268+2000) *10 =106764.17
 The cost have reduced:107448.83-136764.17=$684.66
 
 ### Discussion
-Jet stream is a fast flowing air current. For path planning, it can reduce the consumption of fuel when aircraft pass through it. Therefore, sometimes passing through the jet stream may have a lower cost then the shortest path.
 
 ## Task3
 
 ### Methodology 
-
-
+In  this task, we need to design a new aircraft to best fit Scenario 1 in task 1. In order to fit the requirement, we use the data we get in the program. In order to meet the requirement of making the most efficiency plane, we choose twin-engine plane instead of 4-engine aircraft since the passenger capacity we designed is 250. Twin-engine already fit our basic need. Apart from that, twin-engine has a lower fixed cost compare to 4-engine. 
 ### Results
 
 ![Cost plane](https://user-images.githubusercontent.com/116060401/201833649-1aebf860-7c2f-4fc9-94c3-f28ecac8d739.jpg)
@@ -205,10 +203,6 @@ I was a complete beginner when I first arrived at the university, so being a par
 
 ### Matthew's reflection:
 In this project, we were stuck on the coding part for quite a long time, since no one in our team was familiar with the programming. At first, we tried to write a program to help us fulfil the requirement on task 1, but we failed to do it. So, we list all the data, do the calculations manually, and solve the problem we have faced. For task 2, we meet the requirement by modifying the program, it relies on communication between me and my team. We have discussed serval times on how to change the program so that to do the task successfully. Although we are not successful in the coding part of the project, we’ve learnt a lot in both aviation and programming. For example, using an a-star path-finding algorithm to find the shortest route between two points. Moreover, I’ve also known more about the factors in choosing a suitable plane to fly the route, like the number of passengers, fuel consumption rate and trip time. To summarize, I think this project help me to learn the importance of corporate with others. Without the efforts of each member, It is impossible to finish the project, no matter the coding part or the present part.
-
-### John's reflection:
-
-I've never before used Github. To be completely honest, some Github features are challenging to grasp at first. such as how to post my code or modify a group member's code. However, every issue was resolved within the first week. Even if we all perform our tasks, occasionally we run into issues. My hardest task is actually the first one. I was unable to comprehend the code at that point. Finding the areas where I need to change is difficult for me. I gained a lot of knowledge throughout the project, which has helped us use github more easily. The second and third tasks are more challenging. My task two code can execute at first, but the outcome is not what I expected. although the answer is incorrect, Finding the source of the issue took a lot of time. I don't have the ability to complete some tasks, but I'm eager to learn and improve my coding skills. I've gained more experience in a variety of areas thanks to the project. It's a pleasure to be there.
 
 ## References
 
