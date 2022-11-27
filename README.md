@@ -182,7 +182,7 @@ Fuel cost F :$ 0.8823/kg
 Cost= $7462.9 
 
 ### Discussion
-
+By designing a new aircraft model, the minimum cost can be achieved. However, the model have to match the task requirement such as A380 are for large global transport hubs.
 
 ## Reflective Essay
 
