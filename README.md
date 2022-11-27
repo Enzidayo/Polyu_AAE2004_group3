@@ -51,6 +51,8 @@ HO Tsz Hin Matthew [Hin-Zz]
 HO Yan Chak [Enzidayo]
 
 ## Introduction
+![zeroe-concept-aircraft-patrol-flight](https://user-images.githubusercontent.com/116060401/204120158-c22cd715-cbe7-46ab-b0d2-febd66fff48c.jpg)
+
 Since the invention of the aircraft, navigation always is an important part of aviation. To solve the navigation problem effectively, people try to use AI technology, also known as Path planning. Path planning is the computational problem to find a sequence of valid configurations that moves the object from the source to the destination. 
 
 According to the air traffic statistics provided by AAHK, HKIA recorded approximately 145,000 air traffic movements in 2021. The airspace is fully in-used to handle all the flights. To balance flight efficiency and cost, path planning is important to generate the maximum benefit in a flight operation. By path planning, the designer can fulfill all the constraints to ensure the best use of the crowded airspace and designs an optimized route for aircraft operation. 
@@ -72,9 +74,12 @@ When the tough competitive environment is forcing airlines to consider every asp
 ## Introduction of the Engineering Tools
 
 ### Python
+![Python-Symbol](https://user-images.githubusercontent.com/116060401/204120024-3d5c51ff-8a2f-4f1d-8c16-f4391a72c11a.png)
 Python is an effective programming language that many companies are using it nowadays. For example, google, Instagram, Netflix. Also, Python is a multipurpose language. It can be used for data analysis, automation, path planning, etc.
 
 ### Github
+![GitHub-Logo](https://user-images.githubusercontent.com/116060401/204120089-ef548a36-1ef1-48c1-8b3b-a00ef122fc31.png)
+
 Github is a social network for software developer. It is a place for software developer to share, communicate with others. Also, it is easy for developer to collaborate. In a repository, developer can safely make changes to the code in different branches and they can be merge when the code is finished.
 
 ## Task1
@@ -154,11 +159,11 @@ Cost of 10 A330: (0.76* 84* 102.268+21* 102.268+2000) *10 =106764.17
 The cost have reduced:107448.83-136764.17=$684.66
 
 ### Discussion
-Jet stream is a fast flowing air current. For path planning, it can reduce the consumption of fuel when aircraft pass through it. 
 
 ## Task3
 
 ### Methodology 
+
 
 ### Results
 
