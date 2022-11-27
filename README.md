@@ -85,7 +85,7 @@ Github is a social network for software developer. It is a place for software de
 ## Task1
 
 ### Methodology
-We modified the programme code based on the sample code. We changed the position of the obstacles, cost intensive areas and change the additional flight time in the cost intensive area into 20% and 40%. therefore, we are able to get the required flight time for our route. First, we consider if the aircraft type A321-neo, A330-900neo, and A350-900 can carry all the passenger in the scenarios. Then, we calculate the trip cost of the three aircraft type in three different scenarios manually to find the lowestcost of operating (Using the formula: C = CF x F + CT x T + Cc).
+We modified the programme code based on the sample code. We changed the position of the obstacles, cost intensive areas and change the additional flight time in the cost intensive area into 20% and 40%. therefore, we are able to get the required flight time for our route. First, we consider if the aircraft type A321-neo, A330-900neo, and A350-900 can carry all the passenger in the scenarios. Then, we calculate the trip cost of the three aircraft type in three different scenarios manually to find the lowest cost of operating (Using the formula: C = CF x F + CT x T + Cc).
  
 ### Results
 
